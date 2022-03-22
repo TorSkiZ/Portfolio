@@ -1,9 +1,0 @@
-User-Agent: *
-Allow: /
-Allow: /about_me
-Allow: /portfolio
-Allow: /contact
-Disallow: /img
-Disallow: /fonts
-
-Sitemap: sitemap.xml
