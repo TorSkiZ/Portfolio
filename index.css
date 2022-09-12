@@ -7,22 +7,42 @@
 
 @media screen and (max-width: 600px)
 {
+	.nav
+	{
+		height: 30%
+	}
+	
 	.nav a
 	{
 		width: 100%
 	}
 
-	.content img
+	.content
 	{
-		width: 50%
+		height: 67%
+	}
+
+	.footer
+	{
+		height: 3%
 	}
 }
 
 @media screen and (min-width: 600px)
 {
-	.content img
+	.nav
 	{
-		width: 30%
+		height: 7%
+	}
+
+	.content
+	{
+		height: 90%
+	}
+
+	.footer
+	{
+		height: 3%
 	}
 }
 
@@ -34,7 +54,8 @@
 
 html,body
 {
-	margin: 0
+	margin: 0;
+	height: 100%
 }
 
 a,p,li
@@ -57,9 +78,9 @@ a,p,li
 	display: block;
 	background-color: #000000;
 	text-align: center;
-	padding: 14px 10px;
+	padding: 2vh 2vh;
 	text-decoration: none;
-	font-size: 25px;
+	font-size: 3vh;
 	transition: color 0.8s;
 	transition: background-color 0.8s
 }
@@ -73,23 +94,21 @@ a,p,li
 .content
 {
 	background-image: url("https://space.ovh/img/matrix.webp");
-	background-size: 250px;
+	background-size: 350px;
 	background-repeat: repeat;
 	background-position: center;
 	padding: 20px;
-	font-size: 3vh;
-	text-align: justify
-}
-
-.content img
-{
-	float: left;
-	padding-right: 20px
+	text-align: justify;
+	font-size: 2vh
 }
 
 .footer
 {
-	padding: 14px 20px;
 	text-align: center;
-	background: #000000
+	background: #000000;
+	font-size: 1.5vh;
+	display: flex;
+	justify-content: center;
+  	align-content: center;
+  	flex-direction: column;
 }
