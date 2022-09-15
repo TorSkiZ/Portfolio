@@ -88,7 +88,8 @@ a,p,li
 .nav a:hover
 {
 	color: #000000;
-	background-color: #4AF626
+	background-color: #4AF626;
+	cursor: url("https://space.ovh/cursors/link_select.cur")
 }
 
 .content
@@ -99,7 +100,13 @@ a,p,li
 	background-position: center;
 	padding: 20px;
 	text-align: justify;
-	font-size: 2vh
+	font-size: 2vh;
+	cursor: url("https://space.ovh/cursors/normal_select.cur")
+}
+
+.content a:hover
+{
+	cursor: url("https://space.ovh/cursors/text_select.cur")
 }
 
 .footer
