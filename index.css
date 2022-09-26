@@ -38,7 +38,8 @@ ul
 .me
 {
 	padding-top: 24vh;
-	height: 24vh
+	height: 24vh;
+	width: 24vh
 }
 
 .nav
@@ -50,14 +51,13 @@ ul
 {
 	padding: 1vh 1vh;
 	transition: 0.8s;
-	color: black;
 	font-size: 2.5vh
 }
 
 .nav a:hover
 {
 	transition: 0.8s;
-	color: green;
+	color: blue;
 	font-size: 3.125vh
 }
 
@@ -84,36 +84,53 @@ ul
 
 .portfolio li a:hover
 {
-	color: green;
+	color: blue;
 	font-size: 2.5vh;
 	transition: 0.8s
 }
 
-.contact li
+.contact
+{
+	display: grid;
+	width: 100%;
+	grid-template-columns: 25% 25% 25% 25%
+}
+
+.contact_grid
 {
 	padding-bottom: 2.5vh
 }
 
-.contact li a,img
+.contact_grid a
 {
 	font-size: 2vh;
+	transition: 0.8s
+}
+
+.contact_grid img
+{
 	height: 6vh;
 	transition: 0.8s
 }
 
-.contact li a:hover,.contact li a img:hover
+.contact_grid:hover a
 {
-	color: green;
+	color: blue;
 	font-size: 2.5vh;
-	transition: 0.8s;
-	height: 7.5vh
+	transition: 0.8s
+}
+
+.contact_grid:hover img
+{
+	height: 7.5vh;
+	transition: 0.8s
 }
 
 .footer
 {
 	font-size: 1.5vh;
 	border-top: solid 1px;
-  	background: rgba(0, 128, 0, 0.4);
+  	background: rgba(0, 0, 128, 0.4);
   	width: 100%;
   	position: fixed;
   	bottom: 0;
