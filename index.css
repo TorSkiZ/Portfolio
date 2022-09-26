@@ -91,9 +91,9 @@ ul
 
 .contact
 {
-	display: grid;
+	display: inline-grid;
 	width: 100%;
-	grid-template-columns: 25% 25% 25% 25%
+	grid-template-columns: auto auto auto
 }
 
 .contact_grid
