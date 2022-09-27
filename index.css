@@ -30,7 +30,7 @@ ul
 .bg
 {
 	background-image: url(img/bg.webp);
-	background-position: center;
+	background-size: cover;
 	height: 40vh
 }
 
