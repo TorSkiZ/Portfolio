@@ -17,8 +17,7 @@ html,body
 a
 {
 	text-decoration: none;
-	color: black;
-	text-align: justify
+	color: black
 }
 
 ul
@@ -31,15 +30,18 @@ ul
 .bg
 {
 	background-image: url(img/bg.webp);
-	background-position: center;
-	height: 40vh
+	background-size: cover;
+	height: 40vh;
+	border-bottom: solid 1vh #000080;
 }
 
 .me
 {
-	padding-top: 24vh;
+	margin-top: 24vh;
 	height: 24vh;
-	width: 24vh
+	width: 24vh;
+	border: 1vh solid #000080;
+	border-radius: 100%;
 }
 
 .nav
@@ -51,19 +53,19 @@ ul
 {
 	padding: 1vh 1vh;
 	transition: 0.8s;
-	font-size: 2.5vh
+	font-size: 2vh
 }
 
 .nav a:hover
 {
 	transition: 0.8s;
-	color: blue;
-	font-size: 3.125vh
+	color: #000080;
+	font-size: 2.5vh
 }
 
 .content
 {
-	font-size: 2vh;
+	font-size: 1.6vh;
 	padding-top: 4vh;
 	padding-left: 4vh;
 	padding-right: 4vh;
@@ -78,32 +80,31 @@ ul
 
 .portfolio li a
 {
-	font-size: 2vh;
+	font-size: 1.6vh;
 	transition: 0.8s
 }
 
 .portfolio li a:hover
 {
-	color: blue;
-	font-size: 2.5vh;
+	color: #000080;
+	font-size: 2vh;
 	transition: 0.8s
 }
 
 .contact
 {
 	display: inline-grid;
-	width: 100%;
-	grid-template-columns: auto auto auto
+	grid-template-columns: 25vw 25vw 25vw
 }
 
 .contact_grid
 {
-	padding-bottom: 2.5vh
+	margin-bottom: 2vh
 }
 
 .contact_grid a
 {
-	font-size: 2vh;
+	font-size: 1.6vh;
 	transition: 0.8s
 }
 
@@ -115,8 +116,8 @@ ul
 
 .contact_grid:hover a
 {
-	color: blue;
-	font-size: 2.5vh;
+	color: #000080;
+	font-size: 2vh;
 	transition: 0.8s
 }
 
@@ -128,11 +129,15 @@ ul
 
 .footer
 {
-	font-size: 1.5vh;
-	border-top: solid 1px;
-  	background: rgba(0, 0, 128, 0.4);
+	font-size: 1.6vh;
+  	background: #000080;
   	width: 100%;
   	position: fixed;
   	bottom: 0;
   	left: 0
+}
+
+.footer a
+{
+	color: #ffffff
 }
