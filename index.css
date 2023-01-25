@@ -130,14 +130,10 @@ ul
 .footer
 {
 	font-size: 1.6vh;
+	color: #ffffff;
   	background: #000080;
   	width: 100%;
   	position: fixed;
   	bottom: 0;
   	left: 0
-}
-
-.footer a
-{
-	color: #ffffff
 }
