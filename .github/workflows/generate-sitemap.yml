@@ -38,5 +38,5 @@ jobs:
         commit-message: "Automated sitemap update."
         author: TorSkiZ <wiktor.wasinski@proton.me>
         committer: TorSkiZ <wiktor.wasinski@proton.me>
-        branch: main
+        branch: website/main
         delete-branch: true
