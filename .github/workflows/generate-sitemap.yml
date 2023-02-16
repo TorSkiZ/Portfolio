@@ -19,7 +19,7 @@ jobs:
       id: sitemap
       uses: cicirello/generate-sitemap@v1
       with:
-        base-url-path: https://space.ovh/
+        base-url-path: http://space.ovh/
 
     - name: Output stats
       run: |
