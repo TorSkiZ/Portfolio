@@ -1,33 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="keywords" content="wiktor wasiński, portfolio, profil, it">
-		<meta name="author" content="Wiktor Wasiński">
-		<meta name="description" content="Home page.">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="icon" href="favicon.ico">
-		<link rel="shortcut icon" href="favicon.ico">
-		<title>Wiktor Wasiński</title>
-		<link rel="stylesheet" href="index.css">
-		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-	</head>
-	<body>
-		<div class="header">
-			<div class="bg">
-				<div>
-					<img class="me" src="img/me.webp" alt="me">
-				</div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Wiktor Wasiński, portfolio, profil, IT">
+    <meta name="author" content="Wiktor Wasiński">
+    <meta name="description" content="My portfolio.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.ico">
+    <title>Wiktor Wasiński</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="script.js" defer></script>
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+</head>
+<body>
+	<div class="container">
+    	<header>
+        	<div class="header-content">
+            	<h1 data-lang="header-text"></h1>
+            	<img src="img/apple-touch-icon.png" alt="Wiktor Wasiński">
+        	</div>
+    	</header>
+    	<main>
+        	<section class="about">
+            	<h2 data-lang="about-title"></h2>
+            	<p data-lang="about-text"></p>
+        	</section>
+        	<section class="experience">
+            	<h2 data-lang="experience-title"></h2>
+            	<p data-lang="experience-text"></p>
+        	</section>
+        	<section class="skills">
+            	<h2 data-lang="skills-title"></h2>
+            	<ul>
+                	<li data-lang="skill1"></li>
+                	<li data-lang="skill2"></li>
+                	<li data-lang="skill3"></l>
+                	<li data-lang="skill4"></li>
+                	<li data-lang="skill5"></li>
+            	</ul>
+        	</section>
+        	<section class="interests">
+            	<h2 data-lang="interests-title"></h2>
+            	<p data-lang="interests-text"></p>
+        	</section>
+        	<section class="certifications">
+            	<h2 data-lang="certifications-title"></h2>
+            	<ul>
+                	<li data-lang="cert1"></li>
+                	<li data-lang="cert2"></li>
+            	</ul>
+        	</section>
+        	<section class="goals">
+            	<h2 data-lang="goals-title"></h2>
+            	<p data-lang="goals-text"></p>
+        	</section>
+    	</main>
+    	<footer>
+			<p data-lang="footer-text"></p>
+			<div class="language-switcher">
+				<button id="en-btn">EN</butto>
+				<button id="pl-btn">PL</button>
 			</div>
-		</div>
-		<div class="nav">
-			<a href="https://space.ovh/">Home</a>
-			<a href="https://space.ovh/about_me">About me</a>
-			<a href="https://space.ovh/portfolio">Portfolio</a>
-			<a href="https://space.ovh/contact">Contact</a>
-		</div>
-		<div class="footer">
-			Made with passion by Wiktor Wasiński
-		</div>
-	</body>
+        	<div class="social-links">
+            	<a href="mailto:wiktor.wasinski@wiciu.pl"><img src="img/social-links/email.svg" alt="E-mail"></a>
+            	<a target="_blank" href="https://www.linkedin.com/in/wiktor-wasiński-649118211/"><img src="img/social-links/linkedin.svg" alt="LinkedIn"></a>
+            	<a target="_blank" href="https://github.com/TorSkiZ"><img src="img/social-links/github.svg" alt="GitHub"></a>
+            	<a target="_blank" href="https://discordapp.com/users/927660826284937276/"><img src="img/social-links/discord.svg" alt="Discord"></a>
+        	</div>
+    	</footer>
+	</div>
+</body>
 </html>

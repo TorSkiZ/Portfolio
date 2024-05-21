@@ -1,139 +1,105 @@
-@font-face
-{
-	font-family: "Poppins";
-	font-display: swap;
-	src: url("fonts/poppins.woff2") format("woff2")
-}
-
-html,body
-{
-	margin: 0;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 	height: 100%;
-	width: 100%;
-	font-family: 'Poppins', sans-serif;
-	text-align: center
 }
 
-a
-{
-	text-decoration: none;
-	color: black
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-ul
-{
-	list-style-type: none;
-  	margin: 0;
-  	padding: 0
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
 }
 
-.bg
-{
-	background-image: url(img/bg.webp);
-	background-size: cover;
-	height: 40vh;
-	border-bottom: solid 1vh #000080;
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
 }
 
-.me
-{
-	margin-top: 24vh;
-	height: 24vh;
-	width: 24vh;
-	border: 1vh solid #000080;
-	border-radius: 100%;
+header h1 {
+    font-size: 24px;
+    margin: 0;
 }
 
-.nav
-{
-	padding-top: 10vh
+header img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
 }
 
-.nav a
-{
-	padding: 1vh 1vh;
-	transition: 0.8s;
-	font-size: 2vh
+.language-switcher {
+    padding: 15px;
 }
 
-.nav a:hover
-{
-	transition: 0.8s;
-	color: #000080;
-	font-size: 2.5vh
+.language-switcher button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 0 5px;
+    cursor: pointer;
 }
 
-.content
-{
-	font-size: 1.6vh;
-	padding-top: 4vh;
-	padding-left: 4vh;
-	padding-right: 4vh;
-	padding-bottom: 4vh
+.language-switcher button:hover {
+    background-color: #555;
 }
 
-.portfolio li
-{
-	padding-bottom: 2vh
+main {
+    width: 90%;
+    margin: 20px auto;
+	flex: 1;
 }
 
-
-.portfolio li a
-{
-	font-size: 1.6vh;
-	transition: 0.8s
+section {
+    margin-bottom: 20px;
 }
 
-.portfolio li a:hover
-{
-	color: #000080;
-	font-size: 2vh;
-	transition: 0.8s
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
 }
 
-.contact
-{
-	display: inline-grid;
-	grid-template-columns: 25vw 25vw 25vw
+ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-.contact_grid
-{
-	margin-bottom: 2vh
+ul li {
+    background: #e2e2e2;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
 }
 
-.contact_grid a
-{
-	font-size: 1.6vh;
-	transition: 0.8s
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
 }
 
-.contact_grid img
-{
-	height: 6vh;
-	transition: 0.8s
+footer p {
+    margin: 0;
 }
 
-.contact_grid:hover a
-{
-	color: #000080;
-	font-size: 2vh;
-	transition: 0.8s
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
 }
 
-.contact_grid:hover img
-{
-	height: 7.5vh;
-	transition: 0.8s
-}
-
-.footer
-{
-	font-size: 1.6vh;
-	color: #ffffff;
-  	background: #000080;
-  	width: 100%;
-  	position: fixed;
-  	bottom: 0;
-  	left: 0
+.social-links img {
+    width: 24px;
+    height: 24px;
 }
