@@ -49,10 +49,12 @@ header img {
     padding: 10px;
     margin: 0 5px;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .language-switcher button:hover {
     background-color: #555;
+    transition: 0.5s;
 }
 
 main {
@@ -63,6 +65,19 @@ main {
 
 section {
     margin-bottom: 20px;
+}
+
+section a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+section a:hover {
+    color: #555;
+    text-decoration: underline;
+    transition: 0.5s;
 }
 
 h2 {
