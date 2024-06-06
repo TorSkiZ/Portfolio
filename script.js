@@ -19,8 +19,9 @@ document.addEventListener("DOMContentLoaded", () => {
             "interests-title": "Interests",
             "interests-text": "I have a deep interest in all aspects of IT, particularly in network systems, GNU/Linux servers, and programming. At home, I run my own server where I experiment with various technologies and enhance my skills.",
             "certifications-title": "Certifications",
-            "cert1": "INF.02 and INF.03 qualifications in the IT profession.",
-            "cert2": "Certificate of participation in the 'Czas zawodowców BIS - zawodowa Wielkopolska' project.",
+            "cert1": "Professional Diploma - IT Technician",
+            "cert2": "INF.02 and INF.03 qualifications in the IT profession.",
+            "cert3": "Certificate of participation in the 'Czas zawodowców BIS - zawodowa Wielkopolska' project.",
             "goals-title": "Goals",
             "goals-text": "My professional goal is to connect people through the vast potential of the internet. I am committed to leveraging my skills and knowledge to contribute to the ever-evolving field of IT.",
             "footer-text": "Made with passion by Wiktor Wasiński"
@@ -44,8 +45,9 @@ document.addEventListener("DOMContentLoaded", () => {
             "interests-title": "Zainteresowania",
             "interests-text": "Moją pasją są wszystkie aspekty IT, szczególnie systemy sieciowe, serwery GNU/Linux i programowanie. W domu administruję własnym serwerem, na którym eksperymentuję z różnymi technologiami i rozwijam swoje umiejętności.",
             "certifications-title": "Certyfikaty",
-            "cert1": "Kwalifikacje INF.02 i INF.03 w zawodzie informatyk.",
-            "cert2": "Certyfikat uczestnictwa w projekcie 'Czas zawodowców BIS - zawodowa Wielkopolska'.",
+            "cert1": "Dyplom Zawodowy - Technik Informatyk",
+            "cert2": "Kwalifikacje INF.02 i INF.03 w zawodzie informatyk.",
+            "cert3": "Certyfikat uczestnictwa w projekcie 'Czas zawodowców BIS - zawodowa Wielkopolska'.",
             "goals-title": "Cele",
             "goals-text": "Moim zawodowym celem jest łączenie ludzi poprzez ogromny potencjał internetu. Zobowiązuję się do wykorzystania moich umiejętności i wiedzy, aby przyczynić się do ciągłego rozwoju branży IT.",
             "footer-text": "Stworzone z pasją przez Wiktora Wasińskiego"
