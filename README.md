@@ -1,7 +1,7 @@
 # Portfolio
 Welcome to my portfolio repository! This repository contains the source code and assets for my personal portfolio website. The website showcases my projects, skills, and experience in the field of IT.
 
-# Table of Contents
+## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
