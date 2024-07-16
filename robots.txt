@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-Disallow: /img/
-Sitemap: https://wiciu.pl/sitemap.xml

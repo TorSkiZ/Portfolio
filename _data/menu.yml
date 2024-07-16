@@ -1,0 +1,23 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: about me
+    url: about_me
+
+  - title: portfolio
+    url: portfolio
+
+  - title: blog
+    post_list:
+      limit: 5
+      show_more: true
+      show_more_text: show more...
+      show_more_url: archive.html
+
+  - title: contact
+    entries:
+    - title: <a href="mailto:wiktor.wasinski@wiciu.pl" target="_blank">mail</a>
+    - title: <a href="https://www.linkedin.com/in/wiktor-wasi%C5%84ski-649118211/" target="_blank">linkedin</a>
+    - title: <a href="https://github.com/TorSkiZ" target="_blank">github</a>
+    - title: <a href="https://discordapp.com/users/927660826284937276/" target="_blank">discord</a>

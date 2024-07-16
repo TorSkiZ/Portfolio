@@ -1,5 +1,5 @@
 # Overview
-Welcome to my portfolio repository! This repository contains the source code and assets for my personal portfolio website. The website showcases my projects, skills, and experience in the field of IT.
+Welcome to my website repository! This repository contains the source code and assets for my personal website. The website showcases information about me, my portfolio, blog and contact information.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -10,17 +10,19 @@ Welcome to my portfolio repository! This repository contains the source code and
 - [Contact](#contact)
 
 ## Introduction
-This portfolio is designed to provide an overview of my work and skills as a developer. It includes detailed descriptions of my projects, a summary of my technical skills, and information about my professional experience.
+This website was designed to give me my place on the internet.
 
 ## Features
-- Project Showcase: Detailed descriptions of my projects with links to live demos and source code.
-- Skills Overview: A summary of my technical skills and expertise.
-- Responsive Design: The website is fully responsive and works well on all devices.
+- About me: Information about who I am.
+- Portfolio: My experience, skills, interests and goals.
+- Blog: Posts that I will share from time to time.
+- RSS: Option to subscribe to my website updates.
+- Contact: Links to get in touch with me.
 
 ## Technologies Used
-- HTML: Markup language used for structuring the content of the website.
-- CSS: Styling language used for designing the look and feel of the website.
-- JavaScript: Programming language used for adding interactivity and dynamic content.
+- Jekyll: A framework for creating static websites.
+- no style, please!: A (nearly) no-CSS, fast, minimalist Jekyll theme.
+- GitHub Pages: A free static website hosting service.
 
 ## Contributing
 Contributions are welcome! If you have any suggestions or find any issues, please open an issue or submit a pull request. Please ensure your contributions align with the project's goals and coding standards.
