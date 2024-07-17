@@ -17,6 +17,7 @@ Skills
 Interests
 
 I have a deep interest in all aspects of IT, particularly in network systems, GNU/Linux servers, and programming. At home, I run my own server where I experiment with various technologies and enhance my skills.
+
 Certifications
 
 - Professional Diploma - IT Technician.
